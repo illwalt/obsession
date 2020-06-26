@@ -1,11 +1,14 @@
 /* --- Google Fonts --- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 
 /* --- Components design --- */
-@import url("components/card.css");
-@import url("components/navbar.css");
+/*@import url("css/components/card.css");*/
+@import url("css/components/navbar.css");
 @import url("components/button.css");
-@import url("components/header.css");
+@import url("components/list.css");
+@import url("components/social.css");
+/*@import url("css/components/header.css");*/
 
 /* --- Layouts --- */
 /*@import url("pages/campuses.css");*/
@@ -14,12 +17,16 @@
 
 /* --- Fonts & colors --- */
 body {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
+
 h1, h2, h3 {
-  font-family: "Poppins", "sans-serif";
+  font-family: 'Arvo', serif;
+}
+
 }
 .text-center {
   text-align: center;
 }
+

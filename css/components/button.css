@@ -1,15 +1,13 @@
-.btn-black {
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 8px 24px;
-  border-radius: 4px;
+.btn-blue {
+  color: #b1ebf0;
+  padding: 16px 48px;
   transition: 1s;
+  font-weight: bold;
+  border: 2px solid #b1ebf0;
 }
 
-.btn-black:hover {
-  text-decoration: none;
-  background-color: white;
+.btn-blue:hover {
+  border: 2px solid #b1ebf0;
+  background: #b1ebf0;
   color: black;
-  border: 1px solid black;
 }

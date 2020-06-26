@@ -1,0 +1,16 @@
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline a {
+ text-decoration: none;
+}
+
+.list-inline:hover a {
+ text-decoration: none;
+}
