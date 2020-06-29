@@ -2,5 +2,12 @@
   color: white;
   /* to make image fit screen*/
   background-size: cover;
-  padding: 150px 0px;
+  padding: 400px 0px;
+  object-fit: fill;
+  width: 100%
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }

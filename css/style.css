@@ -4,11 +4,11 @@
 
 /* --- Components design --- */
 /*@import url("css/components/card.css");*/
-@import url("css/components/navbar.css");
+@import url("components/navbar.css");
 @import url("components/button.css");
 @import url("components/list.css");
 @import url("components/social.css");
-@import url("css/components/banner.css");
+@import url("components/banner.css");
 
 /* --- Layouts --- */
 /*@import url("pages/campuses.css");*/
@@ -19,7 +19,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: black;
+  background-image: url('images/background.jpg');"
 }
 
 h1, h2, h3 {

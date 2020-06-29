@@ -4,9 +4,32 @@
   align-items: flex-start;
   box-shadow: 5px 0 10px rgba(0,0,0,0.15);
 }*/
-.navbar {
+.navbar-ob {
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+}
+
+.navbar-ob h1 {
+  color: #b1ebf0;
+  font-size: 16px;
+
+}
+
+.image {
+  background-size: cover;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
 }
