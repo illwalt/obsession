@@ -1,10 +1,5 @@
 .banner {
-  color: white;
-  /* to make image fit screen*/
-  background-size: cover;
-  padding: 400px 0px;
-  object-fit: fill;
-  width: 100%
+  background-color: black;
 }
 
 .responsive {
