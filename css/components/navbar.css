@@ -1,15 +1,11 @@
-.navbar-ob {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
+
 
 .navbar-logo {
   color: #b1ebf0;
+ font-family: 'Arvo', serif;
 /*  font-size: 1.5rem;
   border: 1px solid #b1ebf0;*/
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 /*.image {
@@ -17,7 +13,7 @@
 }*/
 
 .navbar-obsession {
-  border-bottom: 1px solid #b1ebf0;
+  border-bottom: 3px solid #b1ebf0;
   background-color: black;
 }
 
