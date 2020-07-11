@@ -1,7 +1,7 @@
 
 
 .navbar-logo {
-  color: #b1ebf0;
+  color: #EDD382;
  font-family: 'Arvo', serif;
 /*  font-size: 1.5rem;
   border: 1px solid #b1ebf0;*/
@@ -13,7 +13,7 @@
 }*/
 
 .navbar-obsession {
-  border-bottom: 3px solid #b1ebf0;
+  border-bottom: 3px solid #EDD382;
   background-color: black;
 }
 
@@ -23,6 +23,6 @@
 
 .toggler
 {
- color: #b1ebf0;
+ color: #EDD382;
 }
 
