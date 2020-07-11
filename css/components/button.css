@@ -1,18 +1,17 @@
-.btn-blue {
+.btn-gold {
   color: #EDD382;
   padding: 2px 12px;
   transition: 1s;
   font-weight: bold;
   border: 2px solid #EDD382;
-  margin: 0px 12px;
+  margin: 5px 12px;
   border-radius: 4px;
 }
 
 
-.btn-blue:hover {
+.btn-gold:hover {
   border: 2px solid #EDD382;
-  background: #EDD382;
-  color: black;
+  /*background-color: #EDD382;*/
   text-decoration: none;
   font-size: 20px;
 }
