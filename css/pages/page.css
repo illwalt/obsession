@@ -1,5 +1,5 @@
 .about {
-  background-color: rgba(215, 216, 217,0.3);
+  background-color: rgba(215, 216, 217,0.1);
   border-radius: 8px;
 }
 
@@ -12,7 +12,7 @@
 
 .about p {
   text-align: justify;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 20px;
 }
 
@@ -46,10 +46,20 @@
   align-items: center;
 }
 
-.transport h3 {
- text-align: right;
-}
-
-.test p{
+.location p {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 20px;
   margin: 0;
 }
+
+.transport h3 {
+ text-align: right;
+ text-transform: capitalize;
+}
+
+.transport p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
