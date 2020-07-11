@@ -26,3 +26,13 @@
  color: #EDD382;
 }
 
+.navbar-obsession a {
+  margin: 0px 10px 0px 10px;
+  color: #EDD382;
+  text-decoration: none;
+}
+
+.navbar-obsession a:hover {
+  color: #EDD382;
+  text-decoration: none;
+}
