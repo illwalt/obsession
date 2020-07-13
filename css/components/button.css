@@ -19,7 +19,7 @@
 .btn-black {
  color: black;
   padding: 8px 20px;
-  background: rgba(237, 210, 130,0.3);
+  background: #EDD382; /*rgba(237, 210, 130,0.3);*/
   transition: 1s;
   font-weight: bold;
   border: 2px solid #EDD382;
