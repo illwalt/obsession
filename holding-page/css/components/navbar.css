@@ -1,0 +1,38 @@
+
+
+.navbar-logo {
+  color: #EDD382;
+ font-family: 'Arvo', serif;
+/*  font-size: 1.5rem;
+  border: 1px solid #b1ebf0;*/
+  letter-spacing: 0.1rem;
+}
+
+/*.image {
+  background-size: cover;
+}*/
+
+.navbar-obsession {
+  border-bottom: 3px solid #EDD382;
+  background-color: black;
+}
+
+.navbar-obsession .navbar-collapse {
+  flex-grow: 0;
+}
+
+.toggler
+{
+ color: #EDD382;
+}
+
+.navbar-obsession a {
+  margin: 0px 10px 0px 10px;
+  color: #EDD382;
+  text-decoration: none;
+}
+
+.navbar-obsession a:hover {
+  color: #EDD382;
+  text-decoration: none;
+}

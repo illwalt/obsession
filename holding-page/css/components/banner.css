@@ -1,0 +1,11 @@
+.banner {
+  background-color: black;
+  border-bottom: 5px solid #EDD382;
+  /*margin-top: 200px;*/
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,45 @@
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* --- Components design --- */
+/*@import url("css/components/card.css");*/
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/list.css");
+@import url("components/social.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("pages/page.css");
+
+/* --- Layouts --- */
+/*@import url("pages/campuses.css");*/
+
+
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  /*padding-top: 70px;*/
+}
+
+h1, h2, h3 {
+  font-family: 'Arvo', serif;
+  margin-top: 24px:;
+}
+
+}
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

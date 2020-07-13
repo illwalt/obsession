@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hairdresser and Barber Shop | Obsession Hair Design</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    h1 {
+      color: #EDD382;
+      font-family: 'Arvo', serif;
+      text-align: center;
+    }
+
+    a {
+      text-align: center;
+      margin: 100px auto;
+    }
+
+    img {
+      margin: 0 auto;
+      }
+
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 16px;
+      padding: 16px;
+    }
+
+    @media(max-width: 992px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media(max-width: 768px) {
+      .cards {
+      grid-template-columns: 1fr;
+     }
+    }
+    .footer {
+      height: auto;
+      border-top: 3px solid #EDD382;
+      background-color: black;
+      color: #EDD382;
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+
+    .footer li {
+     list-style: none;
+     display: inline-block;
+    }
+
+    .footer ul {
+     text-align: center;
+     padding: 0;
+    }
+
+    .center li {
+      margin: 0 auto;
+    }
+
+    .footer h3 {
+      text-align: center;
+      font-family: bold;
+      font-family: 'Arvo', serif;
+      text-transform: uppercase;
+    }
+
+    .footer p {
+     text-align: center;
+    }
+
+    .comming {
+      height: 800px;
+    }
+    .social-icon {
+      font-size: 40px;
+      color: #EDD382;
+      transition: 1s;
+      margin: 5px;
+    }
+
+    .social-icon:hover {
+      font-size: 52px;
+      color: #EDD382;
+    }
+
+    .btn-gold {
+      color: #EDD382;
+      padding: 2px 12px;
+      transition: 1s;
+      font-weight: bold;
+      border: 2px solid #EDD382;
+      margin: 5px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+
+    .btn-gold:hover {
+      border: 2px solid #EDD382;
+      /*background-color: #EDD382;*/
+      text-decoration: none;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cards">
+    <img src="images/ob-home.jpeg" alt="banner image of Obsession Hair Design shop sign">
+  </div>
+
+  <div class="cards" style="width: 200px; margin: 0 auto;">
+    <a href="http://obsessionhairdesign.booksy.com/" target="_blank" class="btn-gold">Book Now!</a>
+  </div>
+
+  <div style="width: 200px; margin: 0 auto;" class="comming">
+    <h1>Coming Soon</h1>
+  </div>
+
+
+  <div class="footer">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h3>Socials</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/obsession_hair_design/" target="_blank" class="social-icon m-3" ><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" class="social-icon m-3" ><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#" target="_blank" class="social-icon m-3" ><i class="fab fa-twitter-square"></i></a></li>
+          </ul>
+        </div>
+      <div class="col-12 col-lg-6">
+        <br><br><p>&copy; obsession hair design <script>document.write( new Date().getFullYear() );</script></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
